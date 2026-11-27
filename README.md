@@ -12,31 +12,30 @@ To create the solid model from given drawing and section the solid model
 4. 2.5 Mbps or faster download; 500 Kbps or faster upload 
 
 ## PROCEDURE:
-1.	Open new file and then select sketch icon.
-2.	Select the plane for sketching. 
-3.	Use sketching features (line, circle, arc, rectangle, polygon, etc.,) to draw the given sketch
+## 1. Set up a new design and sketch the base outline
+Create a new Fusion design, set units to mm, and start a sketch on the XY plane. Draw the outline using a center boss circle of Ø50 mm, two rounded ends of R15 mm, and the connecting tangent lines. Set the overall length to 100 mm and the width to 38 mm. Constrain the shape symmetrically about the centerline.Add two side holes with R6mm.
+<img width="1782" height="1206" alt="Screenshot 2026-11-22 093621" src="https://github.com/user-attachments/assets/57f2bb6e-72a9-4ab0-89f8-83c1d080b929" />
 
-![image](https://user-images.githubusercontent.com/113594316/198825274-c6a8d3ee-fb19-4641-b915-8d2e000c40a8.png)
 
-4.	Use sketch modifying features (cut, trim, mirror, move, etc.,) to edit the sketch.
+## 2. Extrude the base
+Finish the sketch and use Create → Extrude. Select the closed base profile and enter the base thickness specified by your instructor or source drawing. The drawing does not provide this thickness.
+<img width="1863" height="1161" alt="Screenshot 2026-11-22 093705" src="https://github.com/user-attachments/assets/382eac3b-acf9-49de-97ec-6ed2a50c718e" />
 
-![image](https://user-images.githubusercontent.com/113594316/198825282-0d3de4b8-b6d9-446a-ae2a-461955057399.png)
+## 3. Add the central boss
+Select the top face and start a sketch. Draw a Ø50 mm circle at the center if the base outline did not already include the boss area as part of its profile. Extrude the boss upward by the height specified for the assignment, using Join.
+<img width="1701" height="1314" alt="Screenshot 2026-11-22 093730" src="https://github.com/user-attachments/assets/2f9f14eb-1a8a-461e-aee7-80b7d116ab7b" />
 
-5.	Use inspect feature to measure the dimensions of sketch.
+## 4. Create the center bore and counterbore
+On the boss face, sketch concentric circles of Ø20 mm and Ø30 mm. Use Extrude → Cut for the Ø20 mm bore through the part. Cut the Ø30 mm counterbore from the top face; enter its depth only after confirming it, since the drawing does not show that dimension.
+<img width="1656" height="1053" alt="Screenshot 2026-11-27 084938" src="https://github.com/user-attachments/assets/8f06be80-a8cd-4533-bc27-0ecd56f6c6f1" />
 
-![image](https://user-images.githubusercontent.com/113594316/198825301-194365b4-69d2-42ad-8545-a68d3ca1f442.png)
+## 5.Add the side hole
+Select the appropriate side face and start a sketch. Draw a Ø6 mm circle at the position shown in the side view. Cut it through to the central bore or to the extent indicated by your assignment. The drawing shows the hole size but doesn’t clearly specify its exact location or cut extent, so check those details before modeling.
+<img width="1638" height="1208" alt="Screenshot 2026-11-22 093842" src="https://github.com/user-attachments/assets/48b03859-2b0e-43f9-9ee9-a6128f048782" />
 
-6.	After finishing the sketch use finish sketch option to finalize the sketch.
 
-![image](https://user-images.githubusercontent.com/113594316/198825314-b90f6aba-da26-4f0d-8d61-a03e8ad0d765.png)
-
-7.Use extrude option to convert 3D model from sketch
-
-![image](https://user-images.githubusercontent.com/113594316/198825328-205fac21-1322-4d67-894b-6fd92e454e26.png)
-
-8.Use revolve option to convert 2D to 3D.
-
-![image](https://user-images.githubusercontent.com/113594316/198825337-455049de-f053-48b8-9dd0-ebeb189c0dde.png)
+## 6. Inspect and save the model
+Use Inspect → Measure to check the overall 100 mm length, 38 mm width, Ø50 mm boss, Ø20 mm bore, Ø30 mm counterbore, and two Ø12 mm holes. Compare the model with the section and isometric views, then save the design.
 
 ## INPUT:
 ![image](https://user-images.githubusercontent.com/113594316/198825351-b514a4e7-06af-4ee0-8197-e8267749f8a8.png)
